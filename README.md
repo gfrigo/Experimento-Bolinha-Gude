@@ -69,11 +69,11 @@ Abaixo está uma foto do dataframe com os resultados finais:
 ![Medição](./pictures/dataframe_resultados.PNG)
 
 ## Fórmulas
-* Desvio Absoluto:
+* `Desvio Absoluto:`
 
 ![Desvio Absoluto](./pictures/absoluto_2.PNG)
 
-* Desvio Médio:
+* `Desvio Médio:`
 
 ![Desvio Médio](./pictures/desv_med_1.PNG)
 
