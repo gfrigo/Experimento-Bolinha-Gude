@@ -5,7 +5,6 @@
 - [Objetivo](#objetivo)
 - [Dataframe de Dados](#dataframe-de-dados)
 - [Dataframe de Resultados](#dataframe-de-resultados)
-- [Artigo](#artigo)
 - [Como Usar](#como-usar)
 - [Bibliotecas](#bibliotecas)
 
@@ -17,10 +16,13 @@
 * Joyce Nunes Alves
 * Kimberly Oliveira Germano Ribeiro
 
+
 ## Objetivo
-* Este projeto tem como objetivo a medição de 100 bolinhas de gude com paquímetro e seu tratamento de dados a fim de obter análise de gráficos para a distribuição de medidas e cálculo de incertezas.
+* Este projeto tem como objetivo a medição de 100 bolinhas de gude com paquímetro e seu tratamento de dados a fim de obter análise de gráficos para a distribuição de medidas e cálculo de incertezas;
+* Link para artigo: 
   
 ![Medição](./pictures/medicao.PNG)
+
 
 ## Dataframe de Dados  
 
@@ -38,7 +40,8 @@
 | desvio_absoluto_V2                         | Cálculo desvio absoluto para diâmetro 2. |
 
 Abaixo está uma foto do dataframe e saus variáveis usadas para o cálculo dos resultados finais:
-![Dataframe](./pictures/dataframe.PNG)
+
+![Dataframe](./pictures/dataframe.png)
 
 ## Dataframe de Resultados
 
