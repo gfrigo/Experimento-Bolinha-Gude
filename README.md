@@ -27,7 +27,7 @@ Abaixo está descrito a função de cada arquivo dentro da estrutura do projeto.
 
 ## Objetivo
 * Este projeto tem como objetivo a medição de 100 bolinhas de gude com paquímetro e seu tratamento de dados a fim de obter análise de gráficos para a distribuição de medidas e cálculo de incertezas;
-* Link para artigo: 
+* Link para artigo:  https://drive.google.com/file/d/1JmDJJ7q-TETmhPR0_8GV0-Xl8vbq94zw/view?usp=sharing
   
 ![Medição](./pictures/medicao.PNG)
 
