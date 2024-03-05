@@ -1,4 +1,4 @@
-# Extract, Transform and Load (ETL)
+# Física Aplicada: Experimento Bolinhas de Gude
 
 ## Índice
 - [Nomes](#nomes)
@@ -20,7 +20,7 @@
 ## Objetivo
 * Este projeto tem como objetivo a medição de 100 bolinhas de gude com paquímetro e seu tratamento de dados a fim de obter análise de gráficos para a distribuição de medidas e cálculo de incertezas.
   
-![Medição](./pictures/medicao.png)
+![Medição](./pictures/medicao.PNG)
 
 ## Dataframe de Dados  
 
@@ -37,7 +37,7 @@
 | desvio_absoluto_V1                         | Cálculo desvio absoluto para diâmetro 1. |
 | desvio_absoluto_V2                         | Cálculo desvio absoluto para diâmetro 2. |
 
-![Dataframe de Dados](./pictures/medicao.png)
+![Medição](./pictures/dataframe.PNG)
 
 ## Dataframe de Resultados
 
@@ -52,26 +52,8 @@
 | Incerteza Média V1	                         | Valor médio de D1 e desvio médio de D1. |
 | Incerteza Média V2	                         |   Valor médio de D2 e desvio médio de D2. |
 
-![Dataframe de Resultados](./pictures/medicao.png)
+![Medição](./pictures/dataframe_resultados.PNG)
 
-## Drivers
-* Http Requester: Utilizar a url do website para fazer uma requisição HTTP utilizando a lib Requests e obtém uma resposta (status code e conteúdo do HTML);
-* Html Collector: Foi utilizado o BeautifulSoup para realizar HTML parser e acessar o conteúdo de uma classe específica HTML ("BodyText") e obter os valores de uma tag <a>. Aqui é retornado o nome do artista e o seu link.
-
-## Extração
-* Utiliza dos dados provenientes do Http Resquester e HTML Collector para extração; 
-* Retorno: Conteúdo (raw_information_content) e Data da Extração (extraction_date)
-
-## Transformação
-* Com o retorno raw_information_content, faz a separação das variáveis necessárias interagindo com as strings;
-
-## Carregamento
-* Em "Infra/database_connector" é feito o script para conexão com o banco de dados local utilizando DBeaver e MySQL;
-* Em "Infra/database_repository" é feito o script para query de criação do database;
-* A etapa de carregamento une os itens anteriores para criação do database e inserção de dados com a query criada.
-
-* Resultado:
-![Load](./load.PNG)
 
 ## Como Usar
 
