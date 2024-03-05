@@ -4,8 +4,9 @@
 - [Nomes](#nomes)
 - [Como Usar](#como-usar)
 - [Objetivo](#objetivo)
-- [Dataframe de Dados](#dataframe-de-dados)
-- [Dataframe de Resultados](#dataframe-de-resultados)
+- [Dataframe](#dataframe)
+- [Resultados](#resultados)
+- [Fórmulas](#formulas)
 - [Bibliotecas](#bibliotecas)
 
 ## Nomes
@@ -31,7 +32,7 @@ Abaixo está descrito a função de cada arquivo dentro da estrutura do projeto.
 ![Medição](./pictures/medicao.PNG)
 
 
-## Dataframe de Dados  
+## Dataframe 
 
 | Nome da Variável            | Descrição                                                       |
 |-----------------------------|-----------------------------------------------------------------|
@@ -50,7 +51,7 @@ Abaixo está uma foto do dataframe e saus variáveis usadas para o cálculo dos 
 
 ![Dataframe](./pictures/dataframe.png)
 
-## Dataframe de Resultados
+## Resultados
 
 | Nome da Variável            | Descrição                                                       |
 |-----------------------------|-----------------------------------------------------------------|
@@ -67,6 +68,13 @@ Abaixo está uma foto do dataframe com os resultados finais:
 
 ![Medição](./pictures/dataframe_resultados.PNG)
 
+## Fórmulas
+* Desvio Absoluto:
+![Desvio Absoluto](./pictures/absoluto_2.PNG)
+
+* Desvio Médio:
+
+![Desvio Médio](./pictures/desv_med_1.PNG)
 
 ## Bibliotecas
 Copie e instale as dependências abaixo:
