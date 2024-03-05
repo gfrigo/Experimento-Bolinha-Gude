@@ -7,7 +7,7 @@
 - [Dataframe de Resultados](#dataframe-de-resultados)
 - [Artigo](#artigo)
 - [Como Usar](#como-usar)
-- [Dependências](#dependencias)
+- [Bibliotecas](#bibliotecas)
 
 ## Nomes
 * Alice Vitória Boschetti
@@ -37,7 +37,8 @@
 | desvio_absoluto_V1                         | Cálculo desvio absoluto para diâmetro 1. |
 | desvio_absoluto_V2                         | Cálculo desvio absoluto para diâmetro 2. |
 
-![Medição](./pictures/dataframe.PNG)
+Abaixo está uma foto do dataframe e saus variáveis usadas para o cálculo dos resultados finais:
+![Dataframe](./pictures/dataframe.PNG)
 
 ## Dataframe de Resultados
 
@@ -52,14 +53,17 @@
 | Incerteza Média V1	                         | Valor médio de D1 e desvio médio de D1. |
 | Incerteza Média V2	                         |   Valor médio de D2 e desvio médio de D2. |
 
+Abaixo está uma foto do dataframe com os resultados finais:
+
 ![Medição](./pictures/dataframe_resultados.PNG)
 
 
 ## Como Usar
+* `extract_excel_save_csv`: Arquivo que extrae de uma fonte Excel a tabela com dados brutos e realiza o tratamento bem como a aplicação das equações;
+* `analytics`: Arquivo que reúne o dataframe e os dataframe de resultados para analisar graficamente a distribuição das bolinhas e suas incertezas;
+* `data`: Contém os dados salvos em csv;
 
-
-
-## Dependências
+## Bibliotecas
 Copie e instale as dependências abaixo:
 
 ```bash
