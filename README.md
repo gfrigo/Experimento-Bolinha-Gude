@@ -70,6 +70,7 @@ Abaixo está uma foto do dataframe com os resultados finais:
 
 ## Fórmulas
 * Desvio Absoluto:
+
 ![Desvio Absoluto](./pictures/absoluto_2.PNG)
 
 * Desvio Médio:
