@@ -6,7 +6,7 @@
 - [Objetivo](#objetivo)
 - [Dataframe](#dataframe)
 - [Resultados](#resultados)
-- [Fórmulas](#formulas)
+- [Fórmulas](#fórmulas)
 - [Bibliotecas](#bibliotecas)
 
 ## Nomes
