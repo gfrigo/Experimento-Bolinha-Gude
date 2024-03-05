@@ -2,10 +2,10 @@
 
 ## Índice
 - [Nomes](#nomes)
+- [Como Usar](#como-usar)
 - [Objetivo](#objetivo)
 - [Dataframe de Dados](#dataframe-de-dados)
 - [Dataframe de Resultados](#dataframe-de-resultados)
-- [Como Usar](#como-usar)
 - [Bibliotecas](#bibliotecas)
 
 ## Nomes
@@ -15,6 +15,13 @@
 * Gabriel Frigo Sena Silva
 * Joyce Nunes Alves
 * Kimberly Oliveira Germano Ribeiro
+
+## Como Usar
+Abaixo está descrito a função de cada arquivo dentro da estrutura do projeto. Baixe a pasta completa e execute no Google Colab ou Jupyter Notebook:
+
+* `extract_excel_save_csv`: Arquivo que extrae de uma fonte Excel a tabela com dados brutos e realiza o tratamento bem como a aplicação das equações;
+* `analytics`: Arquivo que reúne o dataframe e os dataframe de resultados para analisar graficamente a distribuição das bolinhas e suas incertezas;
+* `data`: Contém os dados salvos em csv;
 
 
 ## Objetivo
@@ -60,11 +67,6 @@ Abaixo está uma foto do dataframe com os resultados finais:
 
 ![Medição](./pictures/dataframe_resultados.PNG)
 
-
-## Como Usar
-* `extract_excel_save_csv`: Arquivo que extrae de uma fonte Excel a tabela com dados brutos e realiza o tratamento bem como a aplicação das equações;
-* `analytics`: Arquivo que reúne o dataframe e os dataframe de resultados para analisar graficamente a distribuição das bolinhas e suas incertezas;
-* `data`: Contém os dados salvos em csv;
 
 ## Bibliotecas
 Copie e instale as dependências abaixo:
